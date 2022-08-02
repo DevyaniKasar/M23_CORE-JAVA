@@ -6,8 +6,8 @@ public class DoubleProgram {
 
 	public static void main(String[] args) {
 		System.out.println("Enter the value x:");
-		Scanner s= new Scanner(System.in);
-		double x=s.nextDouble();
+		Scanner sc= new Scanner(System.in);
+		double x=sc.nextDouble();
 		System.out.println(x);
 
 	}
