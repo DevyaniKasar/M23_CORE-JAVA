@@ -13,7 +13,7 @@ public class CharProgram {
 			Scanner s= new Scanner(System.in);
 			char x1=s.next().charAt(0);
 			System.out.println(x1);
-
+            s.close();
 
 	}
 

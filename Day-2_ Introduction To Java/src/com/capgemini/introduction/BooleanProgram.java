@@ -10,7 +10,7 @@ public class BooleanProgram {
 		Scanner s= new Scanner(System.in);
 		boolean x=s.nextBoolean();
 		System.out.println(x);
-
+        s.close();
 	}
 
 }

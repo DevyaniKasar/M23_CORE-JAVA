@@ -9,7 +9,7 @@ public class DoubleProgram {
 		Scanner sc= new Scanner(System.in);
 		double x=sc.nextDouble();
 		System.out.println(x);
-
+        sc.close();
 	}
 
 }

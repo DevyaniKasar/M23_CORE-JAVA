@@ -10,7 +10,7 @@ public class IntegerRunTimeInput {
 		Scanner s= new Scanner(System.in);
 		int x=s.nextInt();
 		System.out.println(x);
-
+        s.close();
 	}
 
 }

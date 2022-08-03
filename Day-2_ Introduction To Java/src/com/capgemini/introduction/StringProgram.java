@@ -14,6 +14,7 @@ public class StringProgram {
 		
 		String x=s.nextLine();
 		System.out.println(x);
+		s.close();
 	}
 
 }
