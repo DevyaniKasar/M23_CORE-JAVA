@@ -21,6 +21,6 @@ public class ClassAndObject_Program {
 	    //accessing the class variable
 	    obj.a=5;
 		System.out.println(obj.a);
-	}
+	}  
 }
 
