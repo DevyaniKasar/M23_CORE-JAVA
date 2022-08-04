@@ -5,30 +5,29 @@ import java.util.Scanner;
 class Vehicle
 {
 	//variable
-	public int a;
+	int a;
 	//user-define method
 	void display()
 	{
 		System.out.println("Welcome");
 	}
 }
-
 public class RuntimeClassAndObject {
 
 	public static void main(String[] args) {
 		
-		Scanner s1=new Scanner(System.in);
 		System.out.println("Enter the value of a: ");
-		int a=s1.nextInt();
+		//scanner class
+		Scanner s1=new Scanner(System.in);
+		int a =s1.nextInt();
 		
 		//object creation
 		Vehicle obj=new Vehicle();
 		
 	    //accessing the class method
 		obj.display();
-		//obj.a=50;
-		
 		//accessing the  class variable
+		//obj.a=50;
 		System.out.println(a);
 		s1.close();
 	}
