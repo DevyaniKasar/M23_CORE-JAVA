@@ -5,7 +5,7 @@ class Pulser
 	public int speed;
 	public String color;
 	
-	//parameterised constructor
+	//parameterized constructor
 	/*Pulser(int speed,String color)
 	{
 		this.speed=speed;
