@@ -16,15 +16,13 @@ public class RuntimeClassAndObject {
 
 	public static void main(String[] args) {
 		
+		//object creation
+				Vehicle obj=new Vehicle();
 		System.out.println("Enter the value of a: ");
 		//scanner class
 		Scanner s1=new Scanner(System.in);
 		int a =s1.nextInt();
-		
-		//object creation
-		Vehicle obj=new Vehicle();
-		
-	    //accessing the class method
+		//accessing the class method
 		obj.display();
 		//accessing the  class variable
 		//obj.a=50;
