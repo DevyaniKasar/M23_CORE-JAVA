@@ -2,13 +2,14 @@ package com.capgemini.oop;
 class Animal
 {
 	int x;
-	//non-parameterised constructor
+	//(Default)non-parameterized constructor
 	Animal()
 	{
 		x=10;
 	}
 	void display()
 	{
+		// + is used for concatenation
 		System.out.println("Lion"+x);
 	}
 }
