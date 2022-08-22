@@ -11,9 +11,9 @@ public class MapExample {
 
 		//1.HashMap is unordered
 		//1.LinkedHashMap is ordered
-		obj.put(6, "Shabnam");
-		obj.put(4, "Siddhi");
-		obj.put(1, "Sneha");
+		obj.put(11, "Devyani");
+		obj.put(4, "Vinod");
+		obj.put(1, "Kasar");
 		
 		System.out.println(obj);
 		System.out.println(obj.get(4));
