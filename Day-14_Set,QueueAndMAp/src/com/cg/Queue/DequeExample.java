@@ -11,8 +11,8 @@ public class DequeExample {
 		//adding the elements on front and rear(back) end
 		d.addFirst(13);
 		d.addLast(7);
-		d.add("Shiwani");
-		d.add("Diya");
+		d.add("Devyani");
+		d.add("Kasar");
 	
 		System.out.println(d);
 		//removing the elements from front and rear end
