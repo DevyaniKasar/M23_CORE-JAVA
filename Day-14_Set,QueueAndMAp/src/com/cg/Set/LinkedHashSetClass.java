@@ -7,7 +7,7 @@ public class LinkedHashSetClass {
 
 	public static void main(String[] args) {
 		Set<Object>obj=new LinkedHashSet<Object>();
-		obj.add("Neha");
+		obj.add("DK");
 		obj.add(2);
 		obj.add(8.9f);
 		System.out.println(obj);

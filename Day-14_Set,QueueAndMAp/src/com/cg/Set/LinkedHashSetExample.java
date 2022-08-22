@@ -9,8 +9,8 @@ public class LinkedHashSetExample {
 		Set<Object>obj=new LinkedHashSet<Object>();
 		//1.HashSet/set is unordered and LinkedHashSet is an ordered
 		//2.Set does not allow duplicated values while list allows duplicated values
-		obj.add("Prerna");
-		obj.add('p');
+		obj.add("Devyani");
+		obj.add('D');
 		obj.add(5.8);
 		obj.add(null);
 		obj.add(65);
